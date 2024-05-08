@@ -60,14 +60,14 @@ const Hamburguermenu = ({
                   }}
               
                 >
-                              <Image src="https://firebasestorage.googleapis.com/v0/b/c16-ronda.appspot.com/o/iconos%2FIcons.png?alt=media&token=f00369d5-5fac-4f36-9a97-7fb0dfb1bad3"alt="User Photo" width={40} height={40} />
+            <Image src="https://firebasestorage.googleapis.com/v0/b/c16-ronda.appspot.com/o/iconos%2FIcons.png?alt=media&token=f00369d5-5fac-4f36-9a97-7fb0dfb1bad3"alt="User Photo" width={40} height={40} />
             
                 </button>
             
                 </button>
                 <Image width={100} height={100} src={userPhoto} />
-                <p>nombre de usuari</p>
-                <p>mail</p>
+                <p>{user.data.firstname}</p>
+                <p>{user.data.email}</p>
                 <button
                   className={` ${styles.topmenuPerfil} ${pathname === '/perfil' && styles.active}`}
                   onClick={navigatePerfil}

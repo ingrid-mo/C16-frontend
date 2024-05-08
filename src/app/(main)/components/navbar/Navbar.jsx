@@ -18,22 +18,8 @@ const Navbar = () => {
   const router = useRouter();
   const pathname = router.pathname;
   const [showDropdown, setShowDropdown] = useState(false);
-  const [userPhoto, setUserPhoto] = useState(null);
 
 
-  useEffect(() => {
-    const obtenerFotoUsuario = async () => {
-      try {
-        // Llamamos a la función getUser para obtener la foto del usuario
-        const photo = await getUser(uid); // Asegúrate de tener el uid del usuario disponible
-        setUserPhoto(photo);
-      } catch (error) {
-        console.error('Error al obtener la foto del usuario:', error);
-      }
-    };
-
-    obtenerFotoUsuario();
-  }, []); // Asegúrate de pasar las dependencias adecuadas si es necesario
 
 
 
@@ -175,6 +161,7 @@ const Navbar = () => {
             deleteUser ={deleteUser }
             navigatePerfil={navigatePerfil}
             userPhoto={user.data.photo}
+            username={user.data.name}
           />
         </div>
       </div>

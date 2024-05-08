@@ -7,9 +7,9 @@ import { Spinner } from '@/app/(dashboard)/dashboard/components'
 const dataBanner = {
   imgUrl:
     'https://firebasestorage.googleapis.com/v0/b/c16-ronda.appspot.com/o/imagenes%2FimgApoyo.png?alt=media&token=5657a059-3dd9-4556-9b0a-f4d55410b6fa',
-  titleMessage: 'Apoyo al', //mensaje que va en el titulo
-  titleEmphasis: 'Cuidador', // el enfasis del texto que va color azul
-  message: 'Revisa todo el material que tenemos disponible para ti', //mensaje del banner
+  titleMessage: 'Apoyo a las y los', //mensaje que va en el titulo
+  titleEmphasis: 'Cuidadores', // el enfasis del texto que va color azul
+  message: 'Revisa todo el material que tenemos disponible como datos y links de interés', //mensaje del banner
 }
 
 const ContainerView = () => {

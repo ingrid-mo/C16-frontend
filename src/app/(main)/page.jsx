@@ -20,7 +20,8 @@ export default function Home() {
         <section className={styles.welcome_section}>
           <Welcome />
           <p className={styles.welcome_p}>
-            Sabemos lo desafiante que puede ser asumir este rol, por eso estamos para ayudarte en cada paso del camino.
+          ¡Bienvenid@ a la primera plataforma digital dedicada a brindar apoyo a quienes cuidan! Aquí encontrarás recursos, comunidad y asistencia en tu destacada labor.
+
           </p>
         </section>
       </div>
@@ -36,7 +37,7 @@ export default function Home() {
             </button>
           </Link>
           <p className={styles.cards_p}>
-            Revisa videos, guías y material descargable
+          En esta sección encontrarás herramientas y conocimientos para potenciar tu crecimiento tanto profesional como personal.
           </p>
         </div>
 
@@ -48,8 +49,7 @@ export default function Home() {
             </button>
           </Link>
           <p className={styles.cards_p}>
-            Entabla conversaciones con otros cuidadores, pregunta o responde
-            preguntas de otros.
+          Bienvenid@ a un espacio de conversación con otras personas que ejercen labores de cuidados.
           </p>
         </div>
       </section>

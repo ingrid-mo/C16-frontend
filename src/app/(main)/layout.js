@@ -25,4 +25,5 @@ export default function layout({ children }) {
             <UserStatus />
         </body>
     );
+
 }

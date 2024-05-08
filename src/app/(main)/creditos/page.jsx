@@ -108,7 +108,7 @@ const creditos = () => {
     {
       id: 2,
       nombre: 'Mauricio Santelices',
-      url: '',
+      url: 'https://www.linkedin.com/in/msantelices/',
       photo:
         'https://firebasestorage.googleapis.com/v0/b/c16-ronda.appspot.com/o/imagenes%2Fno%20tocar!%2FRectangle%2017.png?alt=media&token=cd8c69f2-9ddf-43b5-8a49-9d507cf7caf4',
     },

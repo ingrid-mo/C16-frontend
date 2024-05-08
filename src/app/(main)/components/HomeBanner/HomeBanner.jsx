@@ -13,9 +13,9 @@ function HomeBanner() {
     const { user } = useContext(UserContext)
     const [info, setInfo] = useState({
         imgUrl: 'https://firebasestorage.googleapis.com/v0/b/c16-ronda.appspot.com/o/imagenes%2FimgHoma2.png?alt=media&token=2cc5a881-de4a-4de0-b005-c9ec83fc4164',
-        title: 'Uniendo a ',
-        titleAccent: 'Cuidadores',
-        message: 'Únete a la red más grande de apoyo para cuidadores'
+        title: 'Uniendo a persona ',
+        titleAccent: 'Cuidador@s  de todo Chile',
+        message: 'Sé parte de la red más grande de cuidador@s '
     })
 
 
